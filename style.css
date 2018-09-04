@@ -4,14 +4,9 @@ html, body {
 
 }
 
-.h1 {
-    display: block;
-    background-color: #4aaaa5;
-    color: white;
-    height: 100%;
-    margin-left: 18%;
-    padding: 7px 10px 0 10px;  
-
+.navbar-brand {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 26px;
 }
 
 h2 {
@@ -20,33 +15,53 @@ h2 {
     padding-top: 30px;
     padding-bottom: 3px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 24px;
+    font-size: 26 px;
     color: #4aaaa5;
 }
 
-.navbar {
-    background-color: white;
-    padding: 0;
+.dropdown-item:hover {
+    background-color: #4aaaa5;
+    color: white;
+
+}
+
+.footer {
     height: 50px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #4aaaa5;
 }
 
-.navbar-brand{
+.footer p {
+    padding-top: 15px;
+    font-size: 9px;
+}
+
+.btn-shadow {
+    box-shadow: 5px 5px 5px #1C403E;
+}
+
+.card-img-top {
+    height: 250px;
+    width: 100%;
+}
+
+.image-text {
     display: block;
-    height: 100%;
+    height: 15%;
+    background-color: rgba(74,170,165, .75);
+    color: white;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    bottom: 15%;
+    left: 0;
+    right: 0;
 }
 
-.form-inline {
-    display: inline-block;
-    margin-right: 18%;
-}
-
-container {
-    width: 960px;
-}
-
-.wrapper {
-    margin-left: 19%;
-    width: 960px;
-    margin-right: 19%;
-}
+/* .dropdown-menu:active {
+    background-color: #4aaaa5;
+    color: white;
+} */
 
