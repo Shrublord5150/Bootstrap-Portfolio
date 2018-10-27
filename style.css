@@ -23,8 +23,8 @@ html, body {
     margin-bottom: -8px;
 } */
 
-a, a:active, a:visited 
-{ color: white; }
+/* a, a:active, a:visited 
+{ color: white; } */
 h2 {
     text-align: left;
     margin-left: 19px;
@@ -35,6 +35,9 @@ h2 {
     color: #4aaaa5;
 }
 
+.white-link {
+    color:snow
+}
 .dropdown-item:hover {
     background-color: #4aaaa5;
     color: white;
